@@ -35,7 +35,7 @@
       "sourceFileChange": false,
       "url": {
         "//": "this is recommended to avoid Linux/Windows capitalization issue",
-        "htmlExtensionOn": false,
+        "htmlExtensionOn": true,
         "toLowercase": true
       }
     },
@@ -43,7 +43,7 @@
       "cssExternal": "style**.{scss,sass}",
       "cssEmbed": "embed**.{scss,sass}",
       "css": {
-        "embed": false,
+        "embed": true,
         "external": true
       }
     }
@@ -101,5 +101,8 @@
     "jstransformer-markdown-it": "^2.0.0",
     "merge-stream": "^1.0.1",
     "minimist": "^1.2.0"
+  },
+  "dependencies": {
+    "del": "^5.0.0"
   }
 }
