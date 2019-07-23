@@ -1,0 +1,30 @@
+//Quick CSS reset
+html,
+body {
+    height: 100%;
+}
+.welcome {
+    flex-wrap: wrap;
+    display:flex;
+    text-align: center;
+    height: 100%;
+    justify-content: center;
+    background-image: radial-gradient(ellipse, $color-buttercup, $color-golden-grass);
+
+    h1 {
+        font-size: 3.6rem;
+        color: $color-white;
+    }
+
+    a {
+        color:$color-white;
+        text-decoration: none;
+        font-size: 1.05rem;
+    }
+}
+* {
+    margin: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
