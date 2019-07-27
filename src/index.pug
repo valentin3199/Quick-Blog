@@ -1,24 +1,25 @@
-extends _component/layout/base
+extend _component/layout/base
 
 block config
     -
-        var title='Welcome to Quick Blog'
-        var description = 'Using super Quick Blog is easy and you can get 100/100 score on Google pagesspped insights'
-
+        var title = 'Welcome to Quick Blog '
+        var description = 'Using super Quick Blog is easy and you can get 100/100 score on Google pagespeed insights'
 block content
     .content
         #continue
         h2 Firstly, let's write some content
-        p Sociis natoque penatibus et magnis dis parturient montes,nascetur ridiculus mus.
-                a(href ="https://github.com/valentin3199") Quick Blog
+        p 
+            | The sources of Quick Blog can be (put the link) found on GitHub at&nbsp;
+            //- | #{" "}
+            a(href="https://github.com/valentin3199") Quick Blog
         blockquote.blockquote
             .blockquote__body
-                p You don't have to be good to start, you have to start to become good
+                p You don't have to be good to start, you have to start to become good.
             .blockquote-footer
-                a(hreaf="https://github.com/valentin3199", target="_blank") Valentin Nicolae
-        p.lead Cum sociis natoque penatibus et magnis dis parturient montes,nascetur ridiculos mus.
+                a(href="https://www.facebook.com/vali.nicolae.3", target="_blank") Valentin Nicolae
+        p.lead Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
         p
-            small Cum sociis matoque penaties montes,nascetur ridiculuoematoso mus.Donee wllamcoper mulla mon metus auctor fringiila.Duis mollis,est non commodo luctus,nisi erat protiticer ligula,eget lacimza odio sem necc elit.
+            small Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec ullamcorper nulla non metus auctor fringilla. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
         a.top(href="#top")
-            span.top-arrow 
             span Top
+            span.top-arrow
