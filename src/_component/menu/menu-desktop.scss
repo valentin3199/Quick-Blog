@@ -1,6 +1,7 @@
-@media (min-witdh: 1280px) {
-    //extra style  for desktop
-    display: grid;
-    grid-template-columns: 2fr;
-    grid-template-columns: 2fr;
+    
+@media (min-width: 1280px) {
+    .menu__list {
+        flex-grow: 0;
+    }
+    // extra styles for the the desktop version 
 }
